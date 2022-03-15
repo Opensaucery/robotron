@@ -1,5 +1,6 @@
 {
   "name": "robotron",
+  "homepage": "https://opensaucery.github.io/robotron",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
