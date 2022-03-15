@@ -1,9 +1,10 @@
 // import { render } from "@testing-library/react";
 import React, { Component } from "react";
-import CardList from "../Components/CardList";
-import SearchBox from '../Components/SearchBox';
+import CardList from "../components/CardList";
+import SearchBox from '../components/SearchBox';
+import ErrorBoundary from "../components/ErrorBoundary";
 import './App.css';
-import Scroll from '../Components/Scroll'
+import Scroll from '../components/Scroll'
 
 class App extends Component {
     constructor() {
@@ -37,7 +38,9 @@ class App extends Component {
                 <h1>RoboFriends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
-                    <CardList robots={filteredRobots}/>
+                    <ErrorBoundary>
+                        <CardList robots={filteredRobots}/>
+                    </ErrorBoundary>
                 </Scroll>
             </div>
         );
