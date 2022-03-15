@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/robotron/static/css/main.2937b872.css",
+    "main.js": "/robotron/static/js/main.a1dc2fb2.js",
+    "static/js/787.7286b9d5.chunk.js": "/robotron/static/js/787.7286b9d5.chunk.js",
+    "static/media/CARTOON FREE.woff": "/robotron/static/media/CARTOON FREE.942203e058c7d50e387e.woff",
+    "index.html": "/robotron/index.html",
+    "main.2937b872.css.map": "/robotron/static/css/main.2937b872.css.map",
+    "main.a1dc2fb2.js.map": "/robotron/static/js/main.a1dc2fb2.js.map",
+    "787.7286b9d5.chunk.js.map": "/robotron/static/js/787.7286b9d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2937b872.css",
+    "static/js/main.a1dc2fb2.js"
+  ]
+}
